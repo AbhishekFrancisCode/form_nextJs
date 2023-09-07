@@ -1,0 +1,34 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62 44C65.3137 44 68 46.6863 68 50C68 53.3137 65.3137 56 62 56L38 56C34.6863 56 32 53.3137 32 50C32 46.6863 34.6863 44 38 44L62 44ZM62 54.8L38 54.8C35.349 54.8 33.2 52.651 33.2 50C33.2 47.349 35.349 45.2 38 45.2L62 45.2C64.651 45.2 66.8 47.349 66.8 50C66.8 52.651 64.651 54.8 62 54.8Z" fill="url(#paint0_radial_4014_7835)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M71.6 50C71.6 44.6981 67.3019 40.4 62 40.4L38 40.4C32.6981 40.4 28.4 44.6981 28.4 50C28.4 55.3019 32.6981 59.6 38 59.6L62 59.6C67.3019 59.6 71.6 55.3019 71.6 50ZM38 58.4L62 58.4C66.6392 58.4 70.4 54.6392 70.4 50C70.4 45.3608 66.6392 41.6 62 41.6L38 41.6C33.3608 41.6 29.6 45.3608 29.6 50C29.6 54.6392 33.3608 58.4 38 58.4Z" fill="url(#paint1_radial_4014_7835)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62 36.8C69.2902 36.8 75.2 42.7098 75.2 50C75.2 57.2902 69.2902 63.2 62 63.2L38 63.2C30.7098 63.2 24.8 57.2902 24.8 50C24.8 42.7098 30.7098 36.8 38 36.8L62 36.8ZM62 62L38 62C31.3726 62 26 56.6274 26 50C26 43.3726 31.3726 38 38 38L62 38C68.6274 38 74 43.3726 74 50C74 56.6274 68.6274 62 62 62Z" fill="url(#paint2_radial_4014_7835)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M78.8 50C78.8 40.7216 71.2784 33.2 62 33.2L38 33.2C28.7216 33.2 21.2 40.7216 21.2 50C21.2 59.2784 28.7216 66.8 38 66.8L62 66.8C71.2784 66.8 78.8 59.2784 78.8 50ZM38 65.6L62 65.6C70.6156 65.6 77.6 58.6156 77.6 50C77.6 41.3844 70.6156 34.4 62 34.4L38 34.4C29.3844 34.4 22.4 41.3844 22.4 50C22.4 58.6156 29.3844 65.6 38 65.6Z" fill="url(#paint3_radial_4014_7835)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62 29.6C73.2666 29.6 82.4 38.7334 82.4 50C82.4 61.2666 73.2666 70.4 62 70.4L38 70.4C26.7334 70.4 17.6 61.2666 17.6 50C17.6 38.7334 26.7334 29.6 38 29.6L62 29.6ZM62 69.2L38 69.2C27.3961 69.2 18.8 60.6039 18.8 50C18.8 39.3961 27.3961 30.8 38 30.8L62 30.8C72.6039 30.8 81.2 39.3961 81.2 50C81.2 60.6039 72.6039 69.2 62 69.2Z" fill="url(#paint4_radial_4014_7835)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62 26C75.2548 26 86 36.7452 86 50C86 63.2548 75.2548 74 62 74L38 74C24.7452 74 14 63.2548 14 50C14 36.7452 24.7452 26 38 26L62 26ZM62 72.8L38 72.8C25.4079 72.8 15.2 62.5921 15.2 50C15.2 37.4079 25.4079 27.2 38 27.2L62 27.2C74.5921 27.2 84.8 37.4079 84.8 50C84.8 62.5921 74.5921 72.8 62 72.8Z" fill="url(#paint5_radial_4014_7835)"/>
+<defs>
+<radialGradient id="paint0_radial_4014_7835" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(168.69) scale(48.9506 32.6337)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_4014_7835" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(168.69) scale(48.9506 32.6337)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_4014_7835" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(168.69) scale(48.9506 32.6337)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_radial_4014_7835" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(168.69) scale(48.9506 32.6337)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint4_radial_4014_7835" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(168.69) scale(48.9506 32.6337)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint5_radial_4014_7835" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(168.69) scale(48.9506 32.6337)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
