@@ -8,6 +8,7 @@ import WarrantyRegistration from "./warranty_Registration/imageBarTop/warrantyRe
 import TabNavigation from "./warranty_Registration/tabsNav";
 import ContactBar from "./contact-us/contactBar";
 import Together from "./together/together";
+import DynamicFormTs from "./dynamic_form/page"
 
 const HomePage = () => {
   const router = useRouter();
@@ -21,7 +22,8 @@ const HomePage = () => {
   return (
     <Layout headText="Home">
       <Navbar />
-      <Together/>
+      {/* <Together/> */}
+      <DynamicFormTs/>
       {/* <WarrantyRegistration />
       <TabNavigation /> */}
       <ContactBar />
