@@ -12,13 +12,13 @@ import DynamicFormTs from "./dynamic_form/page"
 
 const HomePage = () => {
   const router = useRouter();
-  const { p } = router.query;
-  useEffect(() => {
-    const element = document.getElementById("form");
-    if (p == "work-together" && element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [p]);
+  // const { p } = router.query;
+  // useEffect(() => {
+  //   const element = document.getElementById("form");
+  //   if (p == "work-together" && element) {
+  //     element.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // }, [p]);
   return (
     <Layout headText="Home">
       <Navbar />
@@ -26,7 +26,7 @@ const HomePage = () => {
       <DynamicFormTs/>
       {/* <WarrantyRegistration />
       <TabNavigation /> */}
-      <ContactBar />
+      {/* <ContactBar /> */}
       <Footer />
     </Layout>
   );

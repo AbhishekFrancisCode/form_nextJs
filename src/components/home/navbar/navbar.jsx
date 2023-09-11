@@ -43,8 +43,8 @@ const Navbar = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   useEffect(() => {
-    const element = document.getElementById("form");
-    setWork(element);
+    // const element = document.getElementById("form");
+    // setWork(element);
   }, []);
   const goToContact = () => {
     if (work) {
