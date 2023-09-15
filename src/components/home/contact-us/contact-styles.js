@@ -14,7 +14,7 @@ export const ContactHeading = styled.p`
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 2px;
-  color: ${({ theme }) => theme.colors.colorFAED25};
+  color: ${({ theme }) => theme.colors.white};
   @media only screen and (max-width: 600px) {
     font-size: 1.25rem;
     letter-spacing: 0.5px;
@@ -119,7 +119,7 @@ export const ButtonTags = styled.button`
   }
 `;
 export const IconImages = styled(Image)`
-  margin: 0 10px;
+  width:100px;
   @media screen and (min-width: 1200px) and (max-width: 1400px) {
     height: 35px;
     width: auto;
@@ -161,7 +161,7 @@ export const OrTextRow = styled.div`
 
 export const ContactBarContainer = styled.div`
   width: 100%;
-  height: 22vh;
+  height: auto;
   align-items: center;
   justify-content: center;
   background-color: #333;
@@ -173,8 +173,8 @@ export const ContactBarContainer = styled.div`
 export const Container = styled.div`
   display: grid;
   width: 100vw;
-  text-align: center;
-  position: absolute;
+  // text-align: center;
+  position: relative;
   transition: all 0.25s ease-in-out;
   @media screen and (min-width: 360px) and (max-width: 460px) {
     background-color: #333;
@@ -187,6 +187,7 @@ export const Main = styled.main`
   width: 100vw;
   position: relative;
   padding-top: 25px;
+  padding-left: 8rem;
   @media screen and (min-width: 360px) and (max-width: 460px) {
     padding-top: 10px;
   }
@@ -194,25 +195,24 @@ export const Main = styled.main`
 
 export const ContentBox = styled.div`
   display: flex;
-  align-items: center;
   background: #333;
-  height: 15vh;
   position: relative;
   @media screen and (min-width: 360px) and (max-width: 460px) {
     height: 10vh;
   }
 `;
 export const Content1 = styled.div`
-  width: 100%;
-  height: 100%;
+  // width: %;
+  height: 80%;
+  margin-left: 10%;
   @media screen and (min-width: 360px) and (max-width: 460px) {
     width: 80%;
     height: 80%;
   }
 `;
 export const Content2 = styled(Content1)`
-  width: 8px;
-  height: 70%;
+  // width: 8px;
+  // height: 70%;
   background-color: #ce1e1e;
   @media all and (max-width: 460px) {
     height: 50%;
@@ -223,11 +223,12 @@ export const Content3 = styled(Content1)``;
 export const ContactBarText = styled.p`
   color: #fff;
   font-family: Red Hat Display;
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: 2px;
+  pading:0px;
   ${(props) =>
     props.smalltext
       ? css`
@@ -238,7 +239,6 @@ export const ContactBarText = styled.p`
           }
         `
       : css`
-          text-transform: lowercase;
           @media screen and (min-width: 360px) and (max-width: 460px) {
             font-size: 12px;
             letter-spacing: 0.5px;

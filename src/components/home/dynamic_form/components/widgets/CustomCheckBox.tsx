@@ -9,6 +9,7 @@ export const CustomCheckbox = ({ name, label, options,...props }: CustomInputPro
 	} = useFormContext()
 
 	const error = errors[name]?.message as string | undefined
+	const id = `${name}-${props.type}-${label}`
 
 	return (
 		<div className='flex flex-col py-3'>
@@ -16,11 +17,11 @@ export const CustomCheckbox = ({ name, label, options,...props }: CustomInputPro
 				<label className='text-muted h5 control-label gap-2'>{label}</label>
 				<section className='justify-between flex-col-6 px-2'>
 					{options &&
-						options.map(({ desc, value }) => (
-							<div className='form-check-inline col-3 py-2'>
-							<input {...register(name)} {...props} value={value} className='form-check-input' type='checkbox' />
+						options.map(({ desc, value},i) => (
+							<div key={desc} className='form-check-inline col-3 py-2'>
+							<input {...register(name)} {...props} id={id} value={value} className='form-check-input' type='checkbox' />
 							<label
-								key={value}
+								key={i}
 								className='form-check-label items-center gap-2 cursor-pointer rounded px-2 h6 font-weight-bold'
 							> {desc} </label>
 							</div>

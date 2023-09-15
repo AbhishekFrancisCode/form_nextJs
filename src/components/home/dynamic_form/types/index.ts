@@ -5,7 +5,7 @@ export type FormSection = 'register' | 'another'
 export interface InputProps {
     type: 'text' | 'radio' | 'email' | 'password' | 'select' | 'checkbox' | 'textarea' | 'title'
     name: string
-    value: string | number | boolean
+    value: string | number | boolean | Array<String>
     placeholder?: string
     label?: string
     typeValue?: 'boolean' | 'number'
@@ -20,7 +20,7 @@ export interface Opt {
 
 export interface Validation {
     type: 'required' | 'isEmail' | 'minLength' | 'isTrue' | 'oneOf'
-    value?: string | number | boolean
+    value?: string | number | boolean | Array<any>
     message: string
     ref?: string
 }

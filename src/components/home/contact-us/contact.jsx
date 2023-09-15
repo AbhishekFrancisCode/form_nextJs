@@ -19,6 +19,7 @@ import {
   LiIcon,
   NumContainer,
   OrTextRow,
+  Content1
 } from "./contact-styles";
 import Google from "../../../../public/assets/g-icon.svg";
 import Facebook from "../../../../public/assets/f-icon.svg";
@@ -28,42 +29,42 @@ import Linkedin from "../../../../public/assets/l-icon.svg";
 const Contact = () => {
   return (
     <>
-      <ContactContainer>
+      <Content1 className="">
         <div className="row flex-wrap-reverse">
-          <div className="col-md-5">
-            <ContactHeading className="text-center">FIND US AT</ContactHeading>
-            <ButtonContainer className="d-flex flex-column justify-content-between">
+          <div className="col-md">
+            <ContactHeading className="">FIND US AT</ContactHeading>
+            <ButtonContainer className="d-flex flex-row justify-content-between">
               <div>
                 <Link href="https://goo.gl/maps/j6n3MkoMUdUHqPvQ6">
-                  <ButtonTags>
-                    <IconImages src={Google} alt="icon" /> Google map
-                  </ButtonTags>
+                  {/* <ButtonTags> */}
+                    <IconImages src={Google} alt="icon" />
+                  {/* </ButtonTags> */}
                 </Link>
               </div>
               <div>
                 <Link href="https://www.facebook.com/finemake.in/">
-                  <ButtonTags>
-                    <FbIcon src={Facebook} alt="icon" /> Facebook
-                  </ButtonTags>
+                  {/* <ButtonTags> */}
+                    <FbIcon src={Facebook} alt="icon" />
+                  {/* </ButtonTags> */}
                 </Link>
               </div>
               <div>
                 <Link href="https://www.instagram.com/finemake_in/">
-                  <ButtonTags>
-                    <IgIcon src={Instagram} alt="icon" /> Instagram
-                  </ButtonTags>
+                  {/* <ButtonTags> */}
+                    <IgIcon src={Instagram} alt="icon" />
+                  {/* </ButtonTags> */}
                 </Link>
               </div>
               <div>
                 <Link href="https://www.linkedin.com/company/finemake/">
-                  <ButtonTags>
-                    <LiIcon src={Linkedin} alt="icon" /> Linkedin
-                  </ButtonTags>
+                  {/* <ButtonTags> */}
+                    <LiIcon src={Linkedin} alt="icon" />
+                  {/* </ButtonTags> */}
                 </Link>
               </div>
             </ButtonContainer>
           </div>
-          <div className="col-md-2">
+          {/* <div className="col-md-2">
             <OrTextRow className="row">
               <div className="col-4">
                 <HrTagRed />
@@ -120,9 +121,9 @@ const Contact = () => {
                 </ContactAddressContainer>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
-      </ContactContainer>
+      </Content1>
     </>
   );
 };

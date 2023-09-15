@@ -16,6 +16,7 @@ import {
 } from "./contact-styles";
 import phone from "../../../../public/assets/phone.svg";
 import email from "../../../../public/assets/email.svg";
+import Contact from "./contact"
 
 const ContactBar = () => {
   return (
@@ -23,31 +24,35 @@ const ContactBar = () => {
       <Container>
         <Main>
           <ContactBarText>
-            You can also register your finemake products through :
+            Contact us:
           </ContactBarText>
         </Main>
-        <ContentBox>
+        <ContentBox className="">
           <Content1>
-            <ContactImage
+            {/* <ContactImage
               src={phone}
               alt="phone"
               className=""
               priority={true}
-            />
-            <ContactBarText smalltext>Call to register :</ContactBarText>
-            <ContactBarText2>+ 91-7093212345</ContactBarText2>
+            /> */}
+            <Link href="/" style={{textDecoration: 'none'}}>
+              <ContactBarText smalltext>https://www.finemake.in/</ContactBarText>
+            </Link>
+            <ContactBarText>+ 91-7093212345</ContactBarText>
+            <ContactBarText>BANGALORE FINEMAKE</ContactBarText>
+            <ContactBarText> 3rd Floor, Cvptrus Square,<br/>Dommasandra Circle, Sarjapur Rd.<br/>Bangalore - 562125</ContactBarText>
           </Content1>
-          <Content2 />
-          <Content3>
-            <ContactImage
-              src={email}
-              alt="email"
-              className=""
-              priority={true}
-            />
-            <ContactBarText smalltext>or Email us at :</ContactBarText>
-            <ContactBarText2>hello@finemake.in</ContactBarText2>
-          </Content3>
+          <Content1>
+            <Link href="/" style={{textDecoration: 'none'}}>
+              <ContactBarText smalltext>hello@finemake.in/</ContactBarText>
+            </Link>
+            <ContactBarText>+ 91-7569975172</ContactBarText>
+            <ContactBarText>HYDEBADRA FINEMAKE</ContactBarText>
+            <ContactBarText> 3rd Floor, Rohini Layout, Opp-<br/>Shilparamam, Madhapur<br/>Hyderabad - 500081</ContactBarText>
+          </Content1>
+          <Content1>
+            <Contact/>
+          </Content1>
         </ContentBox>
       </Container>
     </ContactBarContainer>

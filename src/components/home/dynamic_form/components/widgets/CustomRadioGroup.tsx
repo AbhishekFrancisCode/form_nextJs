@@ -9,6 +9,7 @@ export const CustomRadio = ({ name, label, options, ...props }: CustomInputProps
 	} = useFormContext()
 
 	const error = errors[name]?.message as string | undefined
+	const id = `${name}-${props.type}-${label}`
 
 	return (
 		<div className='flex flex-col py-3'>
@@ -17,12 +18,12 @@ export const CustomRadio = ({ name, label, options, ...props }: CustomInputProps
 				<section className='col-9 justify-between flex-1 px-2'>
 					{options &&
 						options.map(({ desc, value }) => (
-							<div className='form-check-inline'>
-								<input {...register(name)} {...props} value={value} className='form-check-input"' type='radio' />
-							<label
-								key={value}
-								className='form-check-label items-center gap-2 cursor-pointer rounded px-2 h5'
-							> {desc} </label>
+							<div key={desc} className='form-check-inline'>
+								<input {...register(name)} {...props} id={id} value={value} className='form-check-input"' type='radio' />
+								<label
+									key={name}
+									className='form-check-label items-center gap-2 cursor-pointer rounded px-2 h5'
+								> {desc} </label>
 							</div>
 						))}
 				</section>

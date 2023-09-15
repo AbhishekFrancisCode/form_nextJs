@@ -4,8 +4,6 @@ import { useEffect } from "react";
 import Footer from "../../layout/footer/footer";
 import Layout from "../../layout/layout";
 import Navbar from "./navbar/navbar";
-import WarrantyRegistration from "./warranty_Registration/imageBarTop/warrantyReg";
-import TabNavigation from "./warranty_Registration/tabsNav";
 import ContactBar from "./contact-us/contactBar";
 import Together from "./together/together";
 import DynamicFormTs from "./dynamic_form/page"
@@ -22,10 +20,7 @@ const HomePage = () => {
   return (
     <Layout headText="Home">
       <Navbar />
-      {/* <Together/> */}
       <DynamicFormTs/>
-      {/* <WarrantyRegistration />
-      <TabNavigation /> */}
       {/* <ContactBar /> */}
       <Footer />
     </Layout>

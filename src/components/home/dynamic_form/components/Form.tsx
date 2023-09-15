@@ -60,7 +60,7 @@ export const Form = ({ ...props }: Props) => {
 		inputs.map(({ validations, typeValue, value, ...inputProps }) => {
 			switch (inputProps.type) {
 				case 'title':
-					return <div className='py-2 h4'>{inputProps.label}</div>
+					return <div key ="dumy"className='py-2 h4'>{inputProps.label}</div>
 				case 'select':
 					return <CustomSelect {...inputProps} key={inputProps.name} />
 				case 'checkbox':
