@@ -380,7 +380,7 @@ export const forms: { [K in FormSection]: InputProps[] } =
             type: "checkbox",
             name: "services_finemake",
             label: "What services would you like to avail from Finemake?",
-            value: "",
+            value: [],
             options: [
                 {
                     value: 'showroom support',
